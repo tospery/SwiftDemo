@@ -1,9 +1,9 @@
 use_frameworks!
 
-target 'SwiftFrame_Example' do
-  pod 'SwiftFrame', :path => '../'
+target 'SwiftDemo_Example' do
+  pod 'SwiftDemo', :path => '../'
 
-  target 'SwiftFrame_Tests' do
+  target 'SwiftDemo_Tests' do
     inherit! :search_paths
 
     

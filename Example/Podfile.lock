@@ -1,33 +1,41 @@
 PODS:
-  - QMUIKit/QMUIComponents/QMUIButton (4.0.4):
-    - QMUIKit/QMUICore
-  - QMUIKit/QMUIComponents/QMUILabel (4.0.4):
-    - QMUIKit/QMUICore
-  - QMUIKit/QMUICore (4.0.4):
-    - QMUIKit/QMUILog
-    - QMUIKit/QMUIWeakObjectContainer
-  - QMUIKit/QMUILog (4.0.4)
-  - QMUIKit/QMUIWeakObjectContainer (4.0.4)
-  - SwiftFrame (1.0.0):
-    - QMUIKit/QMUIComponents/QMUIButton (= 4.0.4)
-    - QMUIKit/QMUIComponents/QMUILabel (= 4.0.4)
-    - QMUIKit/QMUICore (= 4.0.4)
+  - Differentiator (4.0.1)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxDataSources (4.0.1):
+    - Differentiator (~> 4.0)
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - SwiftDemo (1.0.0):
+    - RxDataSources (= 4.0.1)
 
 DEPENDENCIES:
-  - SwiftFrame (from `../`)
+  - SwiftDemo (from `../`)
 
 SPEC REPOS:
   trunk:
-    - QMUIKit
+    - Differentiator
+    - RxCocoa
+    - RxDataSources
+    - RxRelay
+    - RxSwift
 
 EXTERNAL SOURCES:
-  SwiftFrame:
+  SwiftDemo:
     :path: "../"
 
 SPEC CHECKSUMS:
-  QMUIKit: 73899f707bdd51f44d16e10d11f224fb821fbe74
-  SwiftFrame: 0d3c362c684ace2bb3cba64f5f9b3a962c26e1cf
+  Differentiator: 886080237d9f87f322641dedbc5be257061b0602
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SwiftDemo: d01b5aadd992c10713ddfeead408d9ecab0d39a3
 
-PODFILE CHECKSUM: 8113fe91dd55562ce24606907d42886fa5f507fa
+PODFILE CHECKSUM: ebb21de99289d8df45aaba2abcec646de9b9eb67
 
 COCOAPODS: 1.9.1

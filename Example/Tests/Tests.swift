@@ -1,5 +1,5 @@
 import XCTest
-import SwiftFrame
+import SwiftDemo
 
 class Tests: XCTestCase {
     
