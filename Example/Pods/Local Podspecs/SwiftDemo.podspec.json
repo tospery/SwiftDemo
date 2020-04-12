@@ -20,14 +20,17 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "SwiftFrame/Classes/**/*",
+  "source_files": "SwiftDemo/Classes/**/*",
   "resource_bundles": {
-    "SwiftFrame": [
-      "SwiftFrame/Assets/*.png"
+    "SwiftDemo": [
+      "SwiftDemo/Assets/*.png"
     ]
   },
   "frameworks": "UIKit",
   "dependencies": {
+    "ObjectMapper": [
+      "3.5.1"
+    ],
     "RxDataSources": [
       "4.0.1"
     ]

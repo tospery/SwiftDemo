@@ -1,0 +1,28 @@
+[
+    {
+        "name":"测试一（简单）",
+        "forward":"test1",
+        "parameters":null
+    },
+    {
+        "name":"测试二（带参数）",
+        "forward":"test2",
+        "parameters":{
+            "name":"小花",
+            "age":18
+        }
+    },
+    {
+        "name":"测试三（新路由1）",
+        "forward":"Test",
+        "parameters":null
+    },
+    {
+        "name":"测试三（新路由2）",
+        "forward":"Test",
+        "parameters":{
+            "name":"小花",
+            "age":18
+        }
+    }
+]

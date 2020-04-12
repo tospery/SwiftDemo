@@ -1,5 +1,6 @@
 PODS:
   - Differentiator (4.0.1)
+  - ObjectMapper (3.5.1)
   - RxCocoa (5.1.1):
     - RxRelay (~> 5)
     - RxSwift (~> 5)
@@ -11,6 +12,7 @@ PODS:
     - RxSwift (~> 5)
   - RxSwift (5.1.1)
   - SwiftDemo (1.0.0):
+    - ObjectMapper (= 3.5.1)
     - RxDataSources (= 4.0.1)
 
 DEPENDENCIES:
@@ -19,6 +21,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Differentiator
+    - ObjectMapper
     - RxCocoa
     - RxDataSources
     - RxRelay
@@ -30,11 +33,12 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Differentiator: 886080237d9f87f322641dedbc5be257061b0602
+  ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
   RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
   RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
   RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
   RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
-  SwiftDemo: d01b5aadd992c10713ddfeead408d9ecab0d39a3
+  SwiftDemo: d16e5e87f7ae0059bd573bea5209d8f8b548a60c
 
 PODFILE CHECKSUM: ebb21de99289d8df45aaba2abcec646de9b9eb67
 

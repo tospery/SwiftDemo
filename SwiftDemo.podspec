@@ -31,14 +31,15 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.swift_version = '5.0'
   s.ios.deployment_target = '9.0'
-  
-  s.source_files = 'SwiftFrame/Classes/**/*'
+
+  s.source_files = 'SwiftDemo/Classes/**/*'
   
   s.resource_bundles = {
-    'SwiftFrame' => ['SwiftFrame/Assets/*.png']
+    'SwiftDemo' => ['SwiftDemo/Assets/*.png']
   }
   
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
+  s.dependency 'ObjectMapper', '3.5.1'
   s.dependency 'RxDataSources', '4.0.1'
 end
